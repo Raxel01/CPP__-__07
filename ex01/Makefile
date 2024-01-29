@@ -6,21 +6,21 @@
 #    By: abait-ta <abait-ta@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/15 18:34:20 by abait-ta          #+#    #+#              #
-#    Updated: 2024/01/26 17:20:18 by abait-ta         ###   ########.fr        #
+#    Updated: 2024/01/27 12:44:12 by abait-ta         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC = whatever.cpp main.cpp
+SRC = iter.cpp main.cpp
 
 CXX = c++
 
-HEADER = whatever.hpp
+HEADER = iter.hpp
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
 RM = rm -rf
 
-NAME = FirstTemplate
+NAME = Iter
 
 OBJ = ${SRC:.cpp=.o}
 

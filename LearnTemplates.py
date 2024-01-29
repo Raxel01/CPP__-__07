@@ -15,3 +15,8 @@ Diff (What, Template)
         *(WhaT)==(Generic,Type) : is the idea of allowing types mkhtalfiin to be parametrer
         to methodes ,classes ...
 }
+
+Template <class T1, class T2,...>
+{
+    
+}
